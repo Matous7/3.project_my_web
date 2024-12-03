@@ -1,0 +1,259 @@
+/* SMALL DEVICES */
+
+@media (max-width: 600px) {
+    .menu-icon {
+        display: block;
+        font-size: 40px;
+        color: white;
+        cursor: pointer;
+        position: absolute;
+        z-index: 9999;
+        right: 25px;
+        top: 15px;
+    }
+
+    .menu-icon .fa-xmark {
+        display: none;
+    }
+
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        background-color: var(--color-black);
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-list.active {
+        display: flex;
+    }
+
+    .nav-item {
+        padding: 15px 0;
+    }
+
+    .nav-item a {
+        color: white;
+        font-size: 20px;
+    }
+
+    .hero-title {
+        font-size: 25px;
+    }
+    
+    .about-me-title, .concerts-title, #services .services-title, .form-title {
+        font-size: 30px;
+    }
+
+    .service-title {
+        font-size: 20px;
+    }
+
+    .about-me-img-container {  
+        flex-direction:column;
+    }
+    .about-me-img-wrapper {
+        width: 100%; 
+    }
+    
+    .concerts {
+        font-size: 12px; 
+    }
+    .concert-link a {
+        font-size: 10px;
+    }
+    
+    .services-title {
+        font-size: 42px;
+    }
+    
+    .services-container {
+        width: 75%;
+        flex-direction: column; 
+        gap: 30px;
+    }
+    
+    .service-card {
+        flex: 1 1 auto; 
+        width: 100%;       
+    }
+    
+    .contact-container {
+        flex-direction: column; 
+        align-items: center;    
+    }
+    
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        font-size: 18px; 
+        }
+        
+    .contact-container a {
+        font-size: 18px;
+    }
+        
+    .right-side {
+        gap: 50px;
+    }
+        
+    .social-icon i {
+        font-size: 30px;
+    }
+    
+    .form {
+        padding: 20px;
+    }
+    
+    .input-box {
+        gap: 15px;
+    }
+    
+    input[type="text"], 
+    input[type="password"], 
+    input[type="tel"], 
+    textarea, 
+    button[type="submit"],
+    select {
+        width: 70%;
+    }
+
+    .check-form-box {
+        width: 70%;
+    }
+
+    .form-select-option {
+        margin-bottom: 20px;
+    }
+}
+
+/* MEDIUM DEVICES */
+
+@media (min-width: 601px) and (max-width: 900px){
+    .menu-icon {
+        display: block;
+        font-size: 40px;
+        color: white;
+        cursor: pointer;
+        position: absolute;
+        z-index: 9999;
+        right: 25px;
+        top: 15px;
+    }
+
+    .menu-icon .fa-xmark {
+        display: none;
+    }
+
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        background-color: var(--color-black);
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-list.active {
+        display: flex;
+    }
+
+    .nav-item {
+        padding: 15px 0;
+    }
+
+    .nav-item a {
+        color: white;
+        font-size: 20px;
+    }
+    
+    .hero-title {
+        font-size: 40px;
+    }
+    
+    .about-me-img-container {
+        flex-direction:column;
+    }
+    .about-me-img-wrapper {
+        width: 100%;
+    }
+    
+    .concerts {
+        font-size: 15px; 
+    }
+    .concert-link a {
+        font-size: 14px;
+    }
+    
+    .about-me-title, .concerts-title, #services .services-title, .form-title {
+        font-size: 35px;
+    }
+
+    .service-title {
+        font-size: 25px;
+    }
+
+    .services-container {
+        width: 80%;
+        flex-direction: column; 
+        gap: 30px;
+    }
+    
+    .service-card {
+        flex: 1 1 auto; 
+        width: 100%; 
+    }
+
+    .contact-container {
+        flex-direction: row; 
+        align-items: center;
+    }
+    
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        font-size: 18px;
+    }
+        
+    .contact-container a {
+        font-size: 18px;
+    }
+        
+    .right-side {
+        gap: 20px;
+    }
+        
+    .social-icon i {
+        font-size: 30px;
+    }
+
+    input[type="text"], 
+    input[type="password"], 
+    input[type="tel"], 
+    textarea, 
+    button[type="submit"],
+    select {
+        width: 70%;
+    }
+    .check-form-box {
+        width: 70%;
+    }
+    
+}
+
+@media (min-width: 901px) and (max-width: 1100px){
+    .nav-item a {
+        font-size: 18px;
+    }
+}
+
+
+
+
